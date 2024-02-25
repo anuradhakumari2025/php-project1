@@ -24,7 +24,8 @@
         <h1>Let's learn about PHP </h1>
 
     <?php
-    /*  Basics of PHP
+    
+//  Basics of PHP
 
     define('PI' , 3.14);
     echo "Hello World <br>";
@@ -35,7 +36,7 @@
     echo "The value of variable2 is : $variable2";
     echo "<br>";
 
-    //Operators in PHP
+//Operators in PHP
     //Arithmetic Operators
     echo "The value of variable 1 + variable 2 is : ";
     echo $variable1 + $variable2;
@@ -146,9 +147,9 @@
     echo "<br>";
 
     echo PI; //Printing constant value
-    */
 
-    /*  Loops and Arrays practice
+    
+// Loops and Arrays practice
 
     echo "<p>Eligibility for vote in India :- </p>";
     $age = 34;
@@ -231,11 +232,10 @@
         print_no(20);
         echo "<br>";
         print_no(21);
-*/
 
-/* About strings features in php
 
-        //Strings
+// About strings features in php
+
         $str = "You are so genious";
         $len = strlen($str);
         echo "The length of string is " . $len ;
@@ -247,9 +247,6 @@
         echo "The search of 'so' in the string is " . strpos($str,"so");
         echo "<br>";
         echo "The replace string is " . str_replace("so" , "very", $str);
-
-*/
-
 
     ?>
     </div>
