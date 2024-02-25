@@ -40,6 +40,21 @@
     $newvar2 = $variable2;
     $newvar2 *= 2;
     echo $newvar2;
+    echo "<br>";
+
+    //Comparison Operators
+    echo "The value of 1==4 is ";
+    echo var_dump(1==4);
+    echo "<br>";
+    echo "The value of 1!=4 is ";
+    echo var_dump(1!=4);
+    echo "<br>";
+    echo "The value of 1<=4 is ";
+    echo var_dump(1<=4);
+    echo "<br>";
+    echo "The value of 1>=4 is ";
+    echo var_dump(1>=4);
+
     ?>
 </body>
 </html>
