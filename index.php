@@ -70,6 +70,24 @@
     echo "<br>";
     echo "The value of --newvar2 is :  "; 
     echo --$newvar2;
+    echo "<br>";
+    
+    //Logical Operator
+    $myvar1 = (true and true);
+    echo var_dump($myvar1);
+    echo "<br>";
+    $myvar2 = (false and true);
+    echo var_dump($myvar2);
+    echo "<br>";
+    $myvar2 = (false or true);
+    echo var_dump($myvar2);
+    echo "<br>";
+    $myvar2 = (false xor true);
+    echo var_dump($myvar2);
+    echo "<br>";
+    $myvar2 = (false xor false);
+    echo var_dump($myvar2);
+
 
     ?>
 </body>
