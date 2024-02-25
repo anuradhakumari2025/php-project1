@@ -148,6 +148,8 @@
     echo PI; //Printing constant value
     */
 
+    /*  Loops and Arrays practice
+
     echo "<p>Eligibility for vote in India :- </p>";
     $age = 34;
     if($age >= 18){
@@ -219,7 +221,34 @@
             echo "FIVE";
         }
         print5();
+        echo "<br>";
 
+        function print_no($number){
+            echo "Your no. is :";
+            echo $number;
+            echo "<br>";
+        }
+        print_no(20);
+        echo "<br>";
+        print_no(21);
+*/
+
+/* About strings features in php
+
+        //Strings
+        $str = "You are so genious";
+        $len = strlen($str);
+        echo "The length of string is " . $len ;
+        echo "<br>";
+        echo "The length of words in the string is " . str_word_count($str);
+        echo "<br>";
+        echo "The reverse string is " . strrev($str);
+        echo "<br>";
+        echo "The search of 'so' in the string is " . strpos($str,"so");
+        echo "<br>";
+        echo "The replace string is " . str_replace("so" , "very", $str);
+
+*/
 
 
     ?>
