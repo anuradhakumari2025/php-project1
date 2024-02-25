@@ -5,8 +5,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Project 1</title>
 </head>
+<style>
+    *{
+        margin : 0;
+        padding : 0;
+        box-sizing : border-box;
+    }
+    .container{
+        max-width : 80%;
+        background-color : #14A3C7;
+        margin : auto;
+        padding : 23px;
+    }
+
+</style>
 <body>
+    <div class = "container">
+        <h1>Let's learn about PHP </h1>
+
     <?php
+    /*  Basics of PHP
+
     define('PI' , 3.14);
     echo "Hello World <br>";
     $variable1 = 20;
@@ -125,10 +144,86 @@
     $var = true;
     echo var_dump($var);
     echo "<br>";
-    
+
     echo PI; //Printing constant value
+    */
+
+    echo "<p>Eligibility for vote in India :- </p>";
+    $age = 34;
+    if($age >= 18){
+        echo " You can vote";
+    }
+    else{
+        echo "You can't vote";
+    }
+    echo "<br>";
+
+    //Arrays in Php
+    $language = array("C", "C++", "Java", "Python" , "Php" , "Js");
+    echo count($language);
+    echo "<br>";
+    echo $language[4];
+    echo "<br>";
+
+    //Loops in php
+    $a = 1;
+    while($a <= 4){
+        echo "The value of a is : $a";
+        $a++;
+    }
+    echo "<br>";
+
+    //Iterating Arrays in php using while loop
+    $a = 0;
+    while ($a < count($language)){
+        echo "The value of language is : ";
+        echo $language[$a];
+        echo "<br>";
+        $a++;
+    }
+    echo "<br>";
+
+    //Iterating Arrays in php using do while loop
+    $a = 20;
+    do {
+        echo "The value of a is : ";
+        echo $a;
+        echo "<br>";
+        $a++;
+    }while ($a <= 5);
+    echo "<br>";
+    $b = 0;
+    do {
+        echo "The value of a is : ";
+        echo $b;
+        echo "<br>";
+        $b++;
+    }while ($b <= 5);
+    echo "<br>";
+
+    //For Loop
+    for ($c=4 ; $c < 8 ; $c++){
+        echo "You are Astute";
+        echo "<br>";
+    }
+    echo "<br>";
+
+    foreach($language as $value){
+        echo "The value is ";
+        echo $value;
+        echo "<br>";
+        }
+        echo "<br>";
+
+        function print5(){
+            echo "FIVE";
+        }
+        print5();
+
+
 
     ?>
+    </div>
 </body>
 </html>
 
