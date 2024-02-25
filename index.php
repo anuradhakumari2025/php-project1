@@ -31,11 +31,15 @@
     echo "<br>";
 
     //Assignment Operators
-    $newvar = $variable1;
-    echo $newvar;
+    $newvar1 = $variable1;
+    echo $newvar1;
     echo "<br>";
-    $newvar += 1;
-    echo $newvar;
+    $newvar1 += 1;
+    echo $newvar1;
+    echo "<br>";
+    $newvar2 = $variable2;
+    $newvar2 *= 2;
+    echo $newvar2;
     ?>
 </body>
 </html>
